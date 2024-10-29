@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["Guardando Blackout", "Giocando Al Server SCP:Secret Laboratory Di Blackout"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusTypes = [ 'Online', 'Blackout'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
